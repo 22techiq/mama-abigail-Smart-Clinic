@@ -1677,3 +1677,42 @@ footer {
     }
 
 }
+
+
+
+
+/* Department Icon Styling */
+
+.department i{
+    width:70px;
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 18px;
+
+    background:linear-gradient(135deg,#e7f7f4,#c8f0ea);
+    color:#087f73;
+
+    border-radius:20px;
+    font-size:28px;
+
+    box-shadow:0 10px 25px rgba(8,127,115,.15);
+    transition:all .35s ease;
+}
+
+.department:hover i{
+    background:linear-gradient(135deg,#087f73,#05665d);
+    color:#fff;
+    transform:translateY(-4px) scale(1.08);
+    box-shadow:0 18px 35px rgba(8,127,115,.3);
+}
+
+@media (max-width:560px){
+    .department i{
+        width:60px;
+        height:60px;
+        font-size:24px;
+        border-radius:18px;
+    }
+}
